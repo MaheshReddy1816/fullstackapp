@@ -46,7 +46,6 @@ const BASE_URL = 'http://54.209.93.56/springapp1';
     setIsEditing(true);
   };
 
- /*
   const deleteProduct = async (id) => {
     if (window.confirm('Are you sure you want to delete this product?')) {
       await axios.delete(`http://localhost:9090/delete/${id}`);
@@ -54,7 +53,6 @@ const BASE_URL = 'http://54.209.93.56/springapp1';
       fetchProducts();
     }
   };
-  */
 
   useEffect(() => {
     fetchProducts();
